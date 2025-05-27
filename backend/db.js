@@ -4,8 +4,8 @@ const mysql = require('mysql2');
 const dbConfig = {
   host: '127.0.0.1', // Host do banco de dados
   user: 'root', // Usuário do banco de dados
-  password: 'Desenvolvedor@123', // Senha do banco de dados
-//   password: '', // Senha do banco de dados
+  // password: 'Desenvolvedor@123', // Senha do banco de dados
+  password: '', // Senha do banco de dados
   database: 'ucie_builder' // Nome do banco de dados
 };
 

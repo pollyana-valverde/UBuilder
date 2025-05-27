@@ -1,0 +1,24 @@
+@import url('colors.css');
+
+.navegacao a{
+    color: var(--grey);
+}
+
+.navegacao .menu{
+    border: 1px solid var(--grey);
+    border-radius: 50px;
+    padding: 4px;
+
+}
+
+.navegacao .menu a{
+    padding: 15px;
+    text-decoration: none;
+    color: var(--grey);
+}
+
+.navegacao .menu a.activeLink{
+    background-color: var(--green);
+    border-radius: 50px;
+    border: 1px solid var(--grey);
+}
