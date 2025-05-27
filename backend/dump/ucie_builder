@@ -1,0 +1,18 @@
+create database ucie_builder;
+use ucie_builder;
+
+CREATE TABLE `usuarios` ( 
+  `idUsuario` INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  `nome` VARCHAR(150) NOT NULL,
+  `sobrenome` VARCHAR(150) NOT NULL,
+  `email` VARCHAR(150) NOT NULL UNIQUE,
+  `telefone` VARCHAR(20) NOT NULL,
+  `cpf` VARCHAR(30) NOT NULL UNIQUE,
+  `endereco` VARCHAR(250) NOT NULL,
+  `senha` VARCHAR(45) NOT NULL,
+  `tipoUser` ENUM('free', 'standard', 'empresarial') NOT NULL DEFAULT 'free'
+);
+
+insert into usuarios (nome, sobrenome, email, telefone, cpf, endereco, senha)
+values
+('Pollyana', 'Valverde', 'polly@gmail.com', '(11) 99999-9999', '999.999.999-99', 'endereço fictício', '123');

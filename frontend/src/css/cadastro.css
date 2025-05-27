@@ -1,0 +1,60 @@
+@import url(colors.css);
+
+.cadastro .cadastro_video {
+    position: relative;
+}
+
+.cadastro .cadastro_video h4{
+    position: absolute;
+    color: var(--white);
+    z-index: 1;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.cadastro .cadastro_video video {
+    height: 98vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.cadastro .cadastro_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro .cadastro_form h2{
+    color: var(--grey);
+    font-size: 46px;
+}
+
+.cadastro .cadastro_form form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro .cadastro_form form label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cadastro .cadastro_form form input{
+    margin-top: 7px;
+    border: 2px solid var(--grey);
+    padding: 8px 20px !important;
+    border-radius: 10px;
+}
+
+.cadastro .cadastro_form form input::placeholder{
+    font-size: 18px;
+}
+
+.cadastro .cadastro_form form button{
+    background-color: var(--grey);
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 18px;
+}

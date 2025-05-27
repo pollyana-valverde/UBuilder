@@ -1,0 +1,60 @@
+@import url(colors.css);
+
+.login .login_video {
+    position: relative;
+}
+
+.login .login_video h4{
+    position: absolute;
+    color: var(--white);
+    z-index: 1;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.login .login_video video {
+    height: 98vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.login .login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .login_form h2{
+    color: var(--grey);
+    font-size: 46px;
+}
+
+.login .login_form form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login .login_form form label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login .login_form form input{
+    margin-top: 7px;
+    border: 2px solid var(--grey);
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.login .login_form form input::placeholder{
+    font-size: 18px;
+}
+
+.login .login_form form button{
+    background-color: var(--grey);
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 18px;
+}

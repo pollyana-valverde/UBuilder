@@ -1,11 +1,15 @@
 import './css/App.css';
-import Home from './Home';
+import AuthProvider from "./provider/AuthProvider";
+
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-<Home/>
-    </div>
+    <AuthProvider>
+      <Navbar />
+      <Footer />
+    </AuthProvider>
   );
 }
 

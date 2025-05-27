@@ -1,0 +1,16 @@
+/* cores light mode */
+:root {
+    /* cores sólidas */
+    --white: #ffff;
+    --grey: #3C4249;
+    --green: #96FF02;
+    --black: #000000;
+    /* --bgMainRightHome: url('../imagens/mainRightHomeBG2.svg'); */
+}
+
+[data-theme="dark"] {
+    --white: #ffff;
+    --grey: #3C4249;
+    --green: #96FF02;
+    --black: #000000;
+}
